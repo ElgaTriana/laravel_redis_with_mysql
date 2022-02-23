@@ -1,0 +1,491 @@
+{
+	"id": "2ebf3a0b-852f-50dc-a794-20937559e064",
+	"name": "Klink",
+	"description": "",
+	"order": [
+		"6f958708-a9cb-a6cd-b6ed-5c12e267f2b9",
+		"f954f9f6-4bf8-521b-f120-eb1193829ceb",
+		"63672405-ee57-ed44-0939-15091ed9061e",
+		"aced5e7f-e28e-ea85-ca33-82834baf217d",
+		"0fb073ab-ce5c-5a33-464e-04bdfb1c2d96",
+		"b38e3a43-8e27-4402-8f74-83774125b705",
+		"df09f495-f793-4f43-fa62-995d2a149435",
+		"90334460-8293-4c95-4e97-8776be155728",
+		"d5fefb43-fc0c-4459-8ce2-e00602bfa58b",
+		"25c9e3b7-f7fb-7d52-6f51-599f0c69dff5",
+		"5486abee-ef20-373b-2d52-96c84aff6c0a",
+		"a4595c50-3f00-d531-8fe0-df162ee850d3"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1645347671099,
+	"owner": "4936226",
+	"public": false,
+	"requests": [
+		{
+			"id": "0fb073ab-ce5c-5a33-464e-04bdfb1c2d96",
+			"headers": "Authorization: Bearer 4|Hj6PMgkvC0hRpHhXa5iB6Di0ZaTg1aqAAWvHcvia\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 4|Hj6PMgkvC0hRpHhXa5iB6Di0ZaTg1aqAAWvHcvia",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/redisnih",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"data": null,
+			"dataMode": "params",
+			"name": "redis",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1645359984857,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "25c9e3b7-f7fb-7d52-6f51-599f0c69dff5",
+			"headers": "Authorization: Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/product/4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645630333940,
+			"name": "master_produk_delete",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "5486abee-ef20-373b-2d52-96c84aff6c0a",
+			"headers": "Authorization: Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/addtochart",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id_produk",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "qty",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "no_pesanan",
+					"value": "TK1234",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tanggal_pemesanan",
+					"value": "2020-02-02 17:00:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645636469823,
+			"name": "produk_add_chart",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "63672405-ee57-ed44-0939-15091ed9061e",
+			"headers": "Authorization: Bearer 3|I4IG0ifsvbeBwQU1WjOipikzYMiBJuNrPVxIZWKS\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 3|I4IG0ifsvbeBwQU1WjOipikzYMiBJuNrPVxIZWKS",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/profile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"data": null,
+			"dataMode": "params",
+			"name": "lihatprofile",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1645351530684,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6f958708-a9cb-a6cd-b6ed-5c12e267f2b9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "elga",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "elga@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "kobra123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645350257095,
+			"name": "register",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "90334460-8293-4c95-4e97-8776be155728",
+			"headers": "Authorization: Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/product/4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645628204754,
+			"name": "master_produk_list_detail",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "a4595c50-3f00-d531-8fe0-df162ee850d3",
+			"headers": "Authorization: Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/checkout/TK1234",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645636476492,
+			"name": "produk_checkout",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "aced5e7f-e28e-ea85-ca33-82834baf217d",
+			"headers": "Authorization: Bearer 6|I6FYDhLu4QJYdNag2EXdDtBeHUN1H2C7k4L53Xgo\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 6|I6FYDhLu4QJYdNag2EXdDtBeHUN1H2C7k4L53Xgo",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/logout",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645458690346,
+			"name": "logout",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "b38e3a43-8e27-4402-8f74-83774125b705",
+			"headers": "Authorization: Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/product",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645458682998,
+			"name": "master_produk_list",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "d5fefb43-fc0c-4459-8ce2-e00602bfa58b",
+			"headers": "Authorization: Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/product/4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "nama_produk",
+					"value": "Produk CE",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "harga_produk",
+					"value": "87500",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "qty_stok",
+					"value": "298",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645629540174,
+			"name": "master_produk_update",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "df09f495-f793-4f43-fa62-995d2a149435",
+			"headers": "Authorization: Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer 7|QWxEyvsWdOIFGw1MzkTbGjcrNLHhzCDgrj5CGzfU",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/product",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "nama_produk",
+					"value": "Produk D",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "harga_produk",
+					"value": "120000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "qty_stok",
+					"value": "250",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1645627785172,
+			"name": "master_produk_save",
+			"description": "",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"responses": []
+		},
+		{
+			"id": "f954f9f6-4bf8-521b-f120-eb1193829ceb",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "127.0.0.1:8000/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "2ebf3a0b-852f-50dc-a794-20937559e064",
+			"data": [
+				{
+					"key": "email",
+					"value": "elga@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "kobra123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1645350265695,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
